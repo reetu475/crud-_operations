@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Check, List, Pencil, Plus, RefreshCcw, Trash2, X } from "lucide-react";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api/items";
+const API_URL = import.meta.env.VITE_API_URL ?? "/api/items";
 
 const emptyForm = {
   title: "",
